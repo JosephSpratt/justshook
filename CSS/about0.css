@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Muli|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+/* End Fonts */
+/* Start Global rules */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* End Global rules */
+
+/* Start body rules */
+body {
+
+    background: #6c6a6d ;
+    font-family: 'Vibur', cursive;
+/*   the main font */
+    font-family: 'Abel', sans-serif;
+opacity: .95;
+/* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
+}
+body {
+     font-family:Arial, Sans-Serif;
+}
+.clearfix:before, .clearfix:after{
+     content: "";
+     display: table;
+}
+.clearfix:after{
+     clear: both;
+
+}
+a{
+     color:#0067ab;
+     text-decoration:none;
+}
+a:hover{
+     text-decoration:underline;
+}
+header {
+    margin: 2% auto 10% auto;
+    text-align: center;
+}
+header h2 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    color: #3e403f;
+}
+header p {letter-spacing: 0.05em;}
+.page_box{
+  width: 750px;
+  height: 630px;
+  border-radius: 5px;
+  margin: 2% auto;
+  box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+  padding: 2%;
+  background-image: linear-gradient(-225deg, #c0b283 50%, #373737 50%);
+}
+form .con {
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+      margin: 0 auto;
+}
+
+
+  #justlogo{
+    position: absolute;
+    left:0px;
+    top:0px;
+  }
+
+
+.homebutton{
+  width: 150px;
+  min-height: 50px;
+  height: auto;
+  border-radius: 5px;
+  margin: 2% auto;
+  padding: 2%;
+  background-image: linear-gradient(-225deg, #c0b283 50%, #373737 50%);
+  position: absolute;
+  top:500px;
+  font-family: 'Muli', sans-serif;
+  color: white;
+  left: 17px;
+  font-size: 25px;
+  font-weight: bolder;
+  box-shadow: 0 9px #332d2d;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+}
+.homebutton:hover{
+background-image: linear-gradient(-225deg, #373737 50%, #c0b283 50%);
+}
+.homebutton:active{
+  background-image: linear-gradient(-225deg, #373737 50%, #c0b283 50%);
+  box-shadow: 0 5px #999;
+  transform: translateY(4px);
+}
+.betbox{
+  width: 650px;
+  height:500px;
+  border-radius: 5px;
+  margin: 2% auto;
+  padding: 2%;
+  background-color:#332d2d;
+
+}
+.about_message{
+  font-size: 17px;
+  font-family: 'Muli', sans-serif;
+  color: white;
+
+}
+#msghead{
+  font-size: 30px;
+  font-family: 'Muli', sans-serif;
+  color: white;
+  font-weight: bold;
+
+}
+.about_message p{
+  margin: 23px;
+}
